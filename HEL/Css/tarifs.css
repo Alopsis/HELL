@@ -1,0 +1,116 @@
+#tarifs {
+    border-top: dashed rgb(209, 174, 59);
+
+}
+
+#tarifs h2 {
+    text-align: center;
+    font-size: 5.5rem;
+    background: #f7f7f7;
+    background-image: linear-gradient(to right, #000000, rgb(255, 239, 185));
+    -webkit-background-clip: text;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    color: transparent;
+    margin: 0;
+    padding-top: 4rem;
+}
+
+.containerFlex {
+    background: #f7f7f7;
+
+    height: 60rem;
+    display: flex;
+
+    justify-content: center;
+    padding-bottom: 8rem;
+}
+
+.f1:hover {
+    -webkit-transform: scale(1.2);
+}
+.f2:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.f3:hover {
+    -webkit-transform: scale(1.2);
+}
+
+.flexCards:nth-child(1) {
+    border: 1px dashed #373737;
+}
+
+.head {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+    color: #373737;
+    background: #F0EAD6;
+}
+
+.head p {
+    margin: 0;
+    font-size: 3rem;
+    line-height: 10rem;
+    font-family: 'Abril Fatface';
+}
+
+.contenu {
+    margin: auto;
+    text-align: center;
+    font-size: 1.6rem;
+    background: #F0EAD6;
+    height: 6rem;
+    line-height: 6rem;
+}
+
+.prix {
+    margin: 0;
+    height: 11rem;
+    background: #F0EAD6;
+}
+
+.prix p {
+    margin: 0 auto;
+    font-size: 5rem;
+    text-align: center;
+    line-height: 11rem;
+    font-family: 'Abril Fatface';
+}
+
+.flexCards:nth-child(2) {
+    border: none;
+}
+
+.flexCards:nth-child(2) .head {
+    background: #373737;
+    color: #FFD700;
+}
+
+.flexCards:nth-child(2) .head {
+    background: #373737;
+    color: #FFD700;
+}
+
+.flexCards:nth-child(2) .contenu {
+    background: #373737;
+    color: #FFD700;
+}
+
+.flexCards:nth-child(2) .prix {
+    background: #373737 !important;
+    color: #FFD700;
+}
+
+.flexCards:nth-child(3) {
+    border: 1px dashed #373737;
+}
+
+.flexCards {
+    width: 30rem;
+    height: 45rem;
+    margin: 2rem;
+    transition: all 0.2s ease-in;
+
+}

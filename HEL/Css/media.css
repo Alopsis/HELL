@@ -1,0 +1,85 @@
+.media {
+
+    box-sizing: border-box;
+    margin-bottom: 200px;
+}
+
+.rso {
+    border-top: dashed rgb(209, 174, 59);
+    padding-top: 50px;
+}
+
+.media h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.slider {
+    width: 50%;
+    margin: auto;
+
+}
+
+.slider iframe {
+    max-width: 100%;
+    display: none;
+
+
+}
+
+iframe.active {
+    display: block;
+    animation: fade 0.8s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cont-btn {
+    width: 50%;
+    height: auto;
+    border: 1px solid #000;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.btn-nav {
+    font-size: 50px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+
+
+.discord {
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    font-size: 30px;
+cursor: pointer;
+}
+
+.didi {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.a:hover {
+    content: "Tu vas voir tu vas adorer !";
+}
